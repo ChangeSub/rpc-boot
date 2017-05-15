@@ -23,7 +23,7 @@ public class RMIClientConfig {
 	public RmiProxyFactoryBean inituserInfoService() {
 		
 		RmiProxyFactoryBean factoryBean = new RmiProxyFactoryBean();
-		factoryBean.setServiceUrl("rmi://127.0.0.1:1099/userInfoService");
+		factoryBean.setServiceUrl("rmi://127.0.0.1:66666/userInfoService");
 		factoryBean.setServiceInterface(UserInfoService.class);
 		return factoryBean;
 	}
