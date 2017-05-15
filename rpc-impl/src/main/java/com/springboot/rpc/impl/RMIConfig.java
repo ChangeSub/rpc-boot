@@ -35,7 +35,7 @@ public class RMIConfig {
         exporter.setServiceInterface(UserInfoService.class);  
         exporter.setServiceName("userInfoService"); //调用时此名称查找 
         exporter.setService(userInfoService);  
-        exporter.setServicePort(6666);  
+        exporter.setRegistryPort(6666);  
         return exporter;  
     }  
 }
